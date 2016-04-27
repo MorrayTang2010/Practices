@@ -9,4 +9,4 @@ switcheroo.switch<-function(x){
 
 x<-c("a","b","c")
 x.out<-lapply(x,switcheroo.switch)
-x.out
+
