@@ -76,6 +76,8 @@ require(urca)
 require(vars)
 require(coefplot)
 
+
+
 gdpVar<-VAR(gdpDiffed,lag.max=12)
 gdpVar$p
 gdpVar$type
