@@ -27,6 +27,8 @@ out3_1[out3_1 == out3_2]
 
 #5.	请问 1:7 * 1:2 的结果是什么？你能解释吗？
 # warning message length is not equal
+
+
 #6.	请将一个数值型向量在3的倍数的位置上的元素变为这个元素的负值。
 dat6<-c(1,3,5,6,9,12,20)
 flag_3<-as.logical(dat6 %% 3)
@@ -36,7 +38,9 @@ CalVar<-function(x){
   return(sum((x-mean(x))^2)/(length(x)-1))
 }
 #8.	使用 curve 函数画出 sin 函数在 [-pi,pi] 的图像，再将cos 函数在此区间的图像加上。
-curve(sin,-pi,pi,)
+curve(sin,-pi,pi)
+
+
 #9.此题利用数据 state.x77.
 #(a)	用 plot 函数对变量 Illiteracy 和Murder 画散点图；
 #(b)	在上面的散点图上，对 Income 位于前25%的州标上字符”high”

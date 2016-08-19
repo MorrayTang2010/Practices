@@ -1,0 +1,6 @@
+name	age	height
+John	10	150
+Jack	27	180
+Mary	29	167
+DDD
+Steven	45	175
